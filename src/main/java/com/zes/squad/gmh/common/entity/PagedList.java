@@ -25,7 +25,7 @@ public class PagedList<T> implements Serializable {
         pageList.pageNum = 1;
         pageList.pageSize = 10;
         pageList.totalCount = 0L;
-        pageList.totalPages = 0;
+        pageList.totalPages = 1;
         pageList.data = data;
         return pageList;
     }
