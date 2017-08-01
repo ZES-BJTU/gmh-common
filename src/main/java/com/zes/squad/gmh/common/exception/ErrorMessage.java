@@ -30,6 +30,10 @@ public class ErrorMessage {
     public static String storePrincipalNameIsNull          = "门店负责人姓名为空";
     public static String storePrincipalMobileIsNull        = "门店负责人手机号为空";
 
+    public static String projectTopTypeIsNull              = "美容项顶层分类为空";
+    public static String projectTopTypeIsError             = "美容项顶层分类错误";
+    public static String projectTypeIdIsNull               = "美容项标识为空";
+
     public static String consumeRecordIsEmpty              = "消费记录为空";
 
 }
