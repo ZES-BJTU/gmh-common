@@ -32,7 +32,24 @@ public class ErrorMessage {
 
     public static String projectTopTypeIsNull              = "美容项顶层分类为空";
     public static String projectTopTypeIsError             = "美容项顶层分类错误";
-    public static String projectTypeIdIsNull               = "美容项标识为空";
+    public static String projectTypeIdIsNull               = "美容项分类标识为空";
+    public static String projectTypeNameIsNull             = "美容项分类名称为空";
+    public static String projectTypeNotSelectedForDelete   = "请选择要删除的美容项分类";
+    public static String projectIdIsNull                   = "美容项标识为空";
+    public static String projectNotSelectedForDelete       = "请选择要删除的美容项";
+    public static String projectTypeNotFound               = "未找到美容项对应分类";
+    public static String projectNameIsNull                 = "美容项目名称为空";
+    public static String projectRetailPriceIsNull          = "美容项目零售价为空";
+
+    public static String stockTypeNameIsNull               = "库存分类名称为空";
+    public static String stockTypeIdIsNull                 = "库存分类标识为空";
+    public static String stockTypeNotSelectedForDelete     = "请选择要删除的库存分类";
+    public static String stockTypeNotFound                 = "未找到对应库存分类";
+    public static String stockNameIsNull                   = "库存名称为空";
+    public static String stockUnitIsNull                   = "库存单位为空";
+    public static String stockAmountIsError                = "库存数量错误";
+    public static String stockIdIsError                    = "库存标识为空";
+    public static String stockNotSelectedForDelete         = "请选择要删除的库存";
 
     public static String consumeRecordIsEmpty              = "消费记录为空";
 
