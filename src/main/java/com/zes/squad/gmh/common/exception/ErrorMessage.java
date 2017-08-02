@@ -51,6 +51,10 @@ public class ErrorMessage {
     public static String stockIdIsError                    = "库存标识为空";
     public static String stockNotSelectedForDelete         = "请选择要删除的库存";
 
+    public static String memberLevelNameIsNull             = "会员等级名称为空";
+    public static String memberLevelIdIsNull               = "会员等级标识为空";
+    public static String memberLevelNotSelectedForDelete   = "请选择要删除的会员等级";
+
     public static String consumeRecordIsEmpty              = "消费记录为空";
 
 }

@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.google.common.collect.Lists;
 import com.zes.squad.gmh.common.entity.PagedList;
+import com.zes.squad.gmh.common.entity.PagedLists;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
@@ -48,12 +49,12 @@ public class CommonConverter {
             return null;
         }
         if (sourcePagedObjects.getData() == null) {
-            PagedList.newMe(null);
+            PagedLists.newPagedList(sourcePagedObjects.getPageNum(), sourcePagedObjects.getPageSize());
         }
         if (sourcePagedObjects.getData().isEmpty()) {
-            return PagedList.newMe(Lists.newArrayList());
+            return PagedLists.newPagedList(sourcePagedObjects.getPageNum(), sourcePagedObjects.getPageSize());
         }
-        return PagedList.newMe(sourcePagedObjects.getPageNum(), sourcePagedObjects.getPageSize(),
+        return PagedLists.newPagedList(sourcePagedObjects.getPageNum(), sourcePagedObjects.getPageSize(),
                 sourcePagedObjects.getTotalCount(), CommonConverter.mapList(sourcePagedObjects.getData(), targetClass));
     }
 
