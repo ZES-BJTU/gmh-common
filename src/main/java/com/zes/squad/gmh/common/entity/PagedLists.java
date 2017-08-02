@@ -12,21 +12,14 @@ public class PagedLists {
 
     public static <T> PagedList<T> newPagedList(int pageNum, int pageSize) {
         PagedList<T> pagedList = new PagedList<>();
-        pagedList.setPageNum(pageNum);
-        pagedList.setPageSize(pageSize);
-        pagedList.setTotalCount(0L);
-        pagedList.setTotalPages(1);
-        pagedList.setData(Lists.newArrayList());
+        pagedList.setPageNum(pageNum).setPageSize(pageSize).setTotalCount(0L).setData(Lists.newArrayList());
         return pagedList;
     }
 
     public static <T> PagedList<T> newPagedList(int pageNum, int pageSize, long totalCount, List<T> data) {
         PagedList<T> pagedList = new PagedList<>();
-        pagedList.setPageNum(pageNum);
-        pagedList.setPageSize(pageSize);
-        pagedList.setTotalCount(totalCount);
-        pagedList.setTotalPages((int) Math.ceil(((double) totalCount) / pageSize));
-        pagedList.setData(data == null ? Lists.newArrayList() : data);
+        pagedList.setPageNum(pageNum).setPageSize(pageSize).setTotalCount(totalCount)
+                .setData(data == null ? Lists.newArrayList() : data);
         return pagedList;
     }
 
