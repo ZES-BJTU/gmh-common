@@ -54,6 +54,20 @@ public class ErrorMessage {
     public static String memberLevelNameIsNull             = "会员等级名称为空";
     public static String memberLevelIdIsNull               = "会员等级标识为空";
     public static String memberLevelNotSelectedForDelete   = "请选择要删除的会员等级";
+    public static String memberLevelNotFound               = "未找到对应会员等级";
+    public static String memberIdIsNull                    = "会员标识为空";
+    public static String memberMobileIsNull                = "会员手机号为空";
+    public static String memberNameIsNull                  = "会员姓名为空";
+    public static String memberMobileIsError               = "会员手机号格式错误";
+    public static String memberSexIsNull                   = "会员性别为空";
+    public static String memberSexIsError                  = "会员性别错误";
+    public static String memberBirthdayIsNull              = "会员生日为空";
+    public static String memberCardOpenDateIsNull          = "会员开卡日期为空";
+    public static String memberCardValidDateIsNull         = "会员卡有效期为空";
+    public static String memberCardOpenDateAfterValidDate  = "会员卡有效期应该在开开期后";
+    public static String memberNailMoneyIsError            = "会员美甲美睫储值错误";
+    public static String memberBeautyMoneyIsError          = "会员美容储值错误";
+    public static String memberExistInStore                = "该用户已是门店会员";
 
     public static String consumeRecordIsEmpty              = "消费记录为空";
 
