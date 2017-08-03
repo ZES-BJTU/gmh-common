@@ -9,8 +9,9 @@ import lombok.Getter;
 public enum AppointmentStatusEnum {
 
     TO_DO(1, "待完成"),
-    DONE(2, "已完成"),
-    CANCEL(3, "已取消");
+    IN_PROCESS(2, "进行中"),
+    DONE(3, "已完成"),
+    CANCEL(4, "已取消");
 
     private int    key;
     private String desc;
