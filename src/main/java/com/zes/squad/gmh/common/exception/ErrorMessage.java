@@ -64,7 +64,7 @@ public class ErrorMessage {
     public static String memberBirthdayIsNull                      = "会员生日为空";
     public static String memberCardOpenDateIsNull                  = "会员开卡日期为空";
     public static String memberCardValidDateIsNull                 = "会员卡有效期为空";
-    public static String memberCardOpenDateAfterValidDate          = "会员卡有效期应该在开开期后";
+    public static String memberCardOpenDateAfterValidDate          = "会员卡有效期应该在开卡期后";
     public static String memberNailMoneyIsError                    = "会员美甲美睫储值错误";
     public static String memberBeautyMoneyIsError                  = "会员美容储值错误";
     public static String memberExistInStore                        = "该用户已是门店会员";
