@@ -9,7 +9,7 @@ import lombok.Getter;
 public enum StaffLevelEnum {
 
     STAFF(1, "前台"),
-    BEAUTICIAN(2, "前台"),
+    BEAUTICIAN(2, "美容师"),
     ADMINISTRATOR(3, "管理员");
 
     private int    key;

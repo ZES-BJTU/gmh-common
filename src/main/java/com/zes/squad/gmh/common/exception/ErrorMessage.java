@@ -20,6 +20,9 @@ public class ErrorMessage {
     public static String storeIsNull                               = "门店为空";
     public static String staffLevelIsNull                          = "用户级别为空";
     public static String staffLevelIsError                         = "用户级别错误";
+    public static String staffNameIsNull                           = "用户姓名为空";
+    public static String staffMobileIsNull                         = "用户手机号为空";
+    public static String staffMobileIsError                        = "用户手机号格式错误";
     public static String staffIdIsNull                             = "用户标识为空";
     public static String staffNotSelectedForDelete                 = "请选择要删除的用户";
     public static String staffNotFound                             = "未找到用户";
@@ -27,8 +30,6 @@ public class ErrorMessage {
     public static String staffIsNull                               = "用户为空";
 
     public static String storeNotFound                             = "未找到对应门店";
-    public static String storePrincipalNameIsNull                  = "门店负责人姓名为空";
-    public static String storePrincipalMobileIsNull                = "门店负责人手机号为空";
 
     public static String projectTopTypeIsNull                      = "美容项顶层分类为空";
     public static String projectTopTypeIsError                     = "美容项顶层分类错误";
