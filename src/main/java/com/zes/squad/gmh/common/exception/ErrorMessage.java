@@ -62,6 +62,7 @@ public class ErrorMessage {
     public static String memberNameIsNull                              = "会员姓名为空";
     public static String memberMobileIsError                           = "会员手机号格式错误";
     public static String memberSexIsNull                               = "会员性别为空";
+    public static String memberAgeIsNull                               = "会员年龄为空";
     public static String memberSexIsError                              = "会员性别错误";
     public static String memberBirthdayIsNull                          = "会员生日为空";
     public static String memberCardOpenDateIsNull                      = "会员开卡日期为空";
@@ -94,6 +95,11 @@ public class ErrorMessage {
     public static String appointmentEmployeeTimeIsConflicted           = "美容师时间冲突";
     public static String appointmentMemberTimeIsConflicted             = "会员时间冲突";
 
+    public static String consumeRecordChargeIsNull                     = "消费金额为空";
+    public static String consumeRecordChargeIsError                    = "消费金额错误";
+    public static String consumeRecordChargeWayIsNull                  = "消费金额支付方式为空";
+    public static String consumeRecordChargeWayIsError                 = "消费金额支付方式错误";
+    public static String consumeRecordDiscountIsError                  = "消费金额折扣错误";
     public static String consumeRecordIsEmpty                          = "消费记录为空";
 
 }
