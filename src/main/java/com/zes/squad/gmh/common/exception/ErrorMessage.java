@@ -40,7 +40,7 @@ public class ErrorMessage {
     public static String projectNotSelectedForDelete                   = "请选择要删除的美容项";
     public static String projectTypeNotFound                           = "未找到美容项对应分类";
     public static String projectNameIsNull                             = "美容项目名称为空";
-    public static String projectRetailPriceIsNull                      = "美容项目零售价为空";
+    public static String projectRetailPriceIsNull                      = "美容项目原价为空";
     public static String projectNotFound                               = "未找到对应美容项目";
 
     public static String stockTypeNameIsNull                           = "库存分类名称为空";
