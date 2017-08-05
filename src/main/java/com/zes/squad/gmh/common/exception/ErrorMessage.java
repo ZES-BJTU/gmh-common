@@ -42,6 +42,7 @@ public class ErrorMessage {
     public static String projectNameIsNull                             = "美容项目名称为空";
     public static String projectRetailPriceIsNull                      = "美容项目原价为空";
     public static String projectNotFound                               = "未找到对应美容项目";
+    public static String projectNotSelected                            = "请选择美容项目";
 
     public static String stockTypeNameIsNull                           = "库存分类名称为空";
     public static String stockTypeIdIsNull                             = "库存分类标识为空";
@@ -101,5 +102,8 @@ public class ErrorMessage {
     public static String consumeRecordChargeWayIsError                 = "消费金额支付方式错误";
     public static String consumeRecordDiscountIsError                  = "消费金额折扣错误";
     public static String consumeRecordIsEmpty                          = "消费记录为空";
+    public static String consumeRecordMobileIsNull                     = "手机号为空";
+    public static String consumeRecordMobileIsError                    = "手机号格式错误";
+    public static String consumerNameIsError                           = "消费者姓名为空";
 
 }
