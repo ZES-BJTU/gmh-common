@@ -110,5 +110,6 @@ public class ErrorMessage {
     public static String consumerShouldChooseCash                      = "非会员不能使用会员卡支付";
     public static String consumerSexIsNull                             = "消费者性别为空";
     public static String consumerSexIsError                            = "消费者性别错误";
+    public static String exportOccursFail                              = "文件导出失败";
 
 }
