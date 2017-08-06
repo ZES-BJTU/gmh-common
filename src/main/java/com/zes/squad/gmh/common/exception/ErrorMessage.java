@@ -82,6 +82,7 @@ public class ErrorMessage {
     public static String employeeNotFound                              = "未找到对应操作员";
 
     public static String appointmentBeginingTimeIsNull                 = "预约开始时间为空";
+    public static String appointmentBeginingTimeIsError                = "预约开始时间错误";
     public static String appointmentEndingTimeIsNull                   = "预约结束时间为空";
     public static String appointmentEndingTimeShouldAfterBeginningTime = "预约结束时间应晚于开始时间";
     public static String appointmentLineIsNull                         = "预约是否点排为空";

@@ -9,7 +9,7 @@ import lombok.Getter;
 public enum ChargeWayEnum {
 
     CARD(1, "会员卡"),
-    CASH(2, "现金");
+    CASH(2, "其它");
 
     private int    key;
     private String desc;
