@@ -73,12 +73,13 @@ public class ErrorMessage {
     public static String memberBeautyMoneyIsError                      = "会员美容储值错误";
     public static String memberExistInStore                            = "该用户已是门店会员";
     public static String memberNotFound                                = "未找到该会员";
+    public static String memberNotNullForDeleteLevel                   = "该会员等级已关联会员, 无法删除";
 
     public static String employeeJobTypeIsNull                         = "员工工种为空";
     public static String employeeJobTypeIsError                        = "员工工种错误";
     public static String employeeIdIsNull                              = "员工标识为空";
     public static String employeeNotSelected                           = "请选择员工";
-    public static String employeeNotFound                              = "未找到对应美容师";
+    public static String employeeNotFound                              = "未找到对应操作员";
 
     public static String appointmentBeginingTimeIsNull                 = "预约开始时间为空";
     public static String appointmentEndingTimeIsNull                   = "预约结束时间为空";
@@ -87,13 +88,13 @@ public class ErrorMessage {
     public static String appointmentIdIsNull                           = "预约标识为空";
     public static String memberTimeIsConflict                          = "会员时间冲突";
     public static String appointmentProjectIdIsNull                    = "预约项目为空";
-    public static String appointmentEmployeeIdIsNull                   = "预约美容师为空";
+    public static String appointmentEmployeeIdIsNull                   = "预约操作员为空";
     public static String appointmentIsNull                             = "未找到预约记录";
     public static String appointmentNotSelected                        = "请选择预约信息";
     public static String appointmentNotFound                           = "未找到对应预约信息";
     public static String nailMoneyNotEnough                            = "美甲美睫储值不足";
     public static String beautyMoneyNotEnough                          = "美容储值不足";
-    public static String appointmentEmployeeTimeIsConflicted           = "美容师时间冲突";
+    public static String appointmentEmployeeTimeIsConflicted           = "操作员时间冲突";
     public static String appointmentMemberTimeIsConflicted             = "会员时间冲突";
 
     public static String consumeRecordChargeIsNull                     = "消费金额为空";
@@ -105,5 +106,8 @@ public class ErrorMessage {
     public static String consumeRecordMobileIsNull                     = "手机号为空";
     public static String consumeRecordMobileIsError                    = "手机号格式错误";
     public static String consumerNameIsError                           = "消费者姓名为空";
+    public static String consumerShouldChooseCash                      = "非会员不能使用会员卡支付";
+    public static String consumerSexIsNull                             = "消费者性别为空";
+    public static String consumerSexIsError                            = "消费者性别错误";
 
 }

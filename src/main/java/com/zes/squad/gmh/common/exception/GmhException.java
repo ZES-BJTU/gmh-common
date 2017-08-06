@@ -19,7 +19,7 @@ public class GmhException extends RuntimeException {
     }
 
     public GmhException(int code, String error) {
-        super();
+        super(error);
         this.code = code;
         this.error = error;
     }

@@ -12,7 +12,7 @@ public class PagedLists {
 
     public static <T> PagedList<T> newPagedList(int pageNum, int pageSize) {
         PagedList<T> pagedList = new PagedList<>();
-        pagedList.setPageNum(pageNum).setPageSize(pageSize).setTotalCount(0L).setTotalPages(0)
+        pagedList.setPageNum(pageNum).setPageSize(pageSize).setTotalCount(0L).setTotalPages(1)
                 .setData(Lists.newArrayList());
         return pagedList;
     }
