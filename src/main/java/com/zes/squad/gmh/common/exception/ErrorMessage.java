@@ -80,6 +80,7 @@ public class ErrorMessage {
     public static String employeeIdIsNull                              = "员工标识为空";
     public static String employeeNotSelected                           = "请选择员工";
     public static String employeeNotFound                              = "未找到对应操作员";
+    public static String employeeJobNotFound                           = "未找到操作员对应工种";
 
     public static String appointmentBeginingTimeIsNull                 = "预约开始时间为空";
     public static String appointmentBeginingTimeIsError                = "预约开始时间错误";
