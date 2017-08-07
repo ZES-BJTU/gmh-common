@@ -115,6 +115,6 @@ public class ErrorMessage {
     public static String consumeRecordStartTimeIsError                 = "消费记录开始时间错误";
     public static String consumeRecordStartTimeIsAfterEndTime          = "消费记录结束时间应在开始时间之后";
     public static String consumeRecordEndTimeIsError                   = "消费记录结束时间错误";
-    public static String exportOccursFail                              = "文件导出失败";
+    public static String exportOccursFail                              = "导出失败";
 
 }
