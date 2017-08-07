@@ -110,6 +110,9 @@ public class ErrorMessage {
     public static String consumerShouldChooseCash                      = "非会员不能使用会员卡支付";
     public static String consumerSexIsNull                             = "消费者性别为空";
     public static String consumerSexIsError                            = "消费者性别错误";
+    public static String consumeRecordStartTimeIsError                 = "消费记录开始时间错误";
+    public static String consumeRecordStartTimeIsAfterEndTime          = "消费记录结束时间应在开始时间之后";
+    public static String consumeRecordEndTimeIsError                   = "消费记录结束时间错误";
     public static String exportOccursFail                              = "文件导出失败";
 
 }
