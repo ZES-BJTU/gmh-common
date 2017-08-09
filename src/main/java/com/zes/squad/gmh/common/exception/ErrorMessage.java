@@ -8,6 +8,7 @@ public class ErrorMessage {
 
     public static String administratorBelongsToNoStore                 = "管理员不对应具体门店";
 
+    public static String loginAgain                                    = "登录已过期, 请重新登录";
     public static String accountIsNull                                 = "用户名为空";
     public static String passwordIsNull                                = "密码为空";
     public static String originalPasswordIsNull                        = "原密码为空";
