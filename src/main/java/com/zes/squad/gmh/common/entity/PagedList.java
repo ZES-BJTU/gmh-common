@@ -19,5 +19,5 @@ public class PagedList<T> implements Serializable {
     private Long              totalCount;
     private Integer           totalPages;
     private List<T>           data;
-    
+
 }
